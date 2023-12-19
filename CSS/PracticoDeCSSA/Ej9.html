@@ -1,0 +1,59 @@
+<!--9.- Definir un estilo para aplicar a tablas. Se piden diferentes valores para el estilo del borde;
+en concreto, se tiene doble trazo para el borde de la tabla, uno sólido para los encabezados
+y otro de bajo relieve para las celdas normales. También se solicita un color de fondo
+diferente para cada elemento: los encabezados con un azul verdoso, las celdas con naranja
+y la tabla con gris.
+Por otro lado se necesita un espacio entre el borde de la tabla y las celdas mediante la
+declaración border-spacing:12px; ubicada en el selector table. Esta declaración la
+heredarán las celdas también. Por último la declaración padding:4px; en el selector td para
+dejar un margen entre el borde de las celdas y su contenido.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: separate;
+            border: 2px double gray;
+            border-spacing: 12px;
+            background-color: gray;
+        }
+        th {
+            border: 2px solid #2e8b57;
+            background-color: #2e8b57;
+            padding: 4px;
+        }
+        td {
+            border: 2px outset orange;
+            background-color: orange;
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+        <h1>asdasd</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+                <th>Encabezado 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
