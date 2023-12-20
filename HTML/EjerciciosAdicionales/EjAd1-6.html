@@ -1,0 +1,203 @@
+<!--6.- Investigue los elementos audio y video y haga una página con ejemplos de ellos.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios adicionales del 1 al 6</title>
+  </head>
+  <body>
+    <!--1.- Buscar en internet y realizar un resumen de las nuevas características que dispone
+HTML 5.-->
+    <h1>HTML5</h1>
+    <p>
+      HTML5, la quinta versión del lenguaje de marcado HTML, ha introducido una
+      serie de nuevas características y mejoras que han revolucionado la forma
+      en que diseñamos y desarrollamos sitios web. Aquí te presento un resumen
+      de las características más destacadas de HTML5:
+    </p>
+    <ol>
+      <li>
+        <b>Semántica mejorada</b>: HTML5 introduce nuevas etiquetas semánticas
+        como `header`, `footer`, `nav` y `article`, que ayudan a estructurar el
+        contenido de manera más significativa y comprensible para los motores de
+        búsqueda y los lectores de pantalla¹.
+      </li>
+
+      <li>
+        <b>Elementos multimedia</b>: Con HTML5, puedes integrar contenido
+        multimedia directamente en tus páginas web sin necesidad de plugins
+        externos. Las etiquetas `video` y `audio` permiten agregar videos y
+        audios fácilmente¹.
+      </li>
+
+      <li>
+        <b>Gráficos y animaciones</b>: HTML5 ofrece la capacidad de crear
+        gráficos vectoriales escalables utilizando la etiqueta `canvas`,
+        permitiendo dibujar formas, imágenes y animaciones directamente en el
+        navegador¹.
+      </li>
+
+      <li>
+        <b>APIs de geolocalización y almacenamiento local</b>: HTML5 permite
+        acceder a la ubicación geográfica del usuario utilizando la API de
+        geolocalización, y almacenar datos en el navegador del usuario
+        utilizando la API de almacenamiento local¹.
+      </li>
+
+      <li>
+        <b>Formularios mejorados</b>: HTML5 introduce nuevas características en
+        los formularios, como validación de campos, campos de fecha y hora,
+        campos de búsqueda y campos de correo electrónico¹.
+      </li>
+    </ol>
+    <p>
+      Estas son solo algunas de las muchas características sorprendentes que
+      HTML5 ha traído al mundo del desarrollo web. Con cada nueva actualización,
+      este lenguaje continúa evolucionando y mejorando, ofreciéndonos
+      herramientas más potentes y flexibles para crear sitios web modernos e
+      innovadores¹.
+    </p>
+    <hr />
+    <!--2.- Investigue qué novedades vendrán en HTML, CSS y JS.-->
+    <h1>Novedades</h1>
+
+    <h2>HTML</h2>
+    <ul>
+      <li>
+        <b>Jamstack</b>: Es una arquitectura moderna para crear sitios web
+        rápidos, seguros y escalables mediante el aprovechamiento de la
+        generación de sitios estáticos, JavaScript del lado del cliente y API
+        para la funcionalidad del lado del servidor⁵.
+      </li>
+      <li>
+        <b>Etiqueta para descomprimir</b>: Se está debatiendo la posibilidad de
+        implementar una etiqueta para descomprimir⁸.
+      </li>
+      <li>
+        <b>WYSIWVG nativo</b>: Se está considerando la implementación de un
+        WYSIWVG nativo⁸.
+      </li>
+    </ul>
+    <h2>CSS</h2>
+    <li>
+      <b>Container queries</b>: Permiten dar estilos a un elemento en función
+      del tamaño de su padre¹².
+    </li>
+    <li>
+      <b>Funciones para colores</b>: Se están probando nuevas funciones para dar
+      luminosidad y controlar el croma y el tono².
+    </li>
+    <li>
+      <b>Pseudo clases</b>: Modifican comportamientos de los elementos HTML².
+    </li>
+    <li>
+      <b>Line-clamp</b>: Esta propiedad limita las líneas visibles de un
+      bloque².
+    </li>
+    <li><b>Backdrop-filter</b>: Se está considerando su implementación².</li>
+    <li>
+      <b>Scroll snap</b>: Permite controlar el comportamiento del
+      desplazamiento².
+    </li>
+
+    <h2>JavaScript</h2>
+    <li>
+      <b>WebAssembly</b>: Permite crear aplicaciones web de alto rendimiento⁵.
+    </li>
+    <li>
+      <b>Aprendizaje automático en el navegador</b>: TensorFlow.js y la web
+      potenciada por la IA⁵.
+    </li>
+    <li>
+      <b>Aplicaciones basadas en Blockchain</b>: Impulsando la Web
+      descentralizada⁵.
+    </li>
+    <br />
+    Estas son solo algunas de las muchas características sorprendentes que se
+    esperan en el futuro del desarrollo web. Con cada nueva actualización, estos
+    lenguajes continúan evolucionando y mejorando, ofreciéndonos herramientas
+    más potentes y flexibles para crear sitios web modernos e innovadores⁵.
+    <hr />
+    <!--3.- Averigüe qué significa el concepto web storage.-->
+    <h1>Web Storage</h1>
+    <p>
+      El concepto de Web Storage se refiere a una API (Interfaz de Programación
+      de Aplicaciones) proporcionada por los navegadores web modernos que
+      permite a las aplicaciones web almacenar datos de manera persistente en el
+      navegador local del usuario.
+    </p>
+
+    <h3>Existen dos tipos principales de Web Storage:</h3>
+    <ol>
+      <li>
+        <b>localStorage:</b> Permite el almacenamiento de datos con una
+        capacidad máxima de alrededor de 5 MB por dominio. Los datos almacenados
+        en `localStorage` permanecen en el navegador incluso después de que se
+        cierra y se vuelve a abrir el navegador.
+      </li>
+      <li>
+        <b>sessionStorage:</b> Almacena datos solo durante la sesión de
+        navegación actual. Los datos almacenados en `sessionStorage` se borran
+        cuando se cierra la pestaña o ventana del navegador.
+      </li>
+    </ol>
+    <p>
+      Ambos proporcionan un mecanismo simple para almacenar pares clave-valor de
+      datos en el lado del cliente, permitiendo que las aplicaciones web
+      almacenen información localmente en el dispositivo del usuario. Estos
+      datos son accesibles para la misma aplicación web en el mismo dominio, lo
+      que significa que otros sitios web no pueden acceder directamente a la
+      información almacenada en el almacenamiento web de un dominio específico.
+    </p>
+    <p>
+      Estos mecanismos son útiles para guardar preferencias del usuario, estados
+      de sesión, datos temporales o cualquier información que sea necesaria
+      conservar entre diferentes visitas a la misma aplicación web sin necesidad
+      de recurrir a un servidor. Sin embargo, es importante tener en cuenta que
+      el almacenamiento web no está diseñado para almacenar información sensible
+      o crítica, ya que los datos pueden ser accesibles y modificables por los
+      usuarios del navegador.
+    </p>
+    <hr />
+    <!--4.- Investigue el elemento iframe. ¿Dónde ha visto su uso o qué ejemplo de uso daría?.-->
+    <h1>IFrame</h1>
+    <p>
+      El elemento iframe en HTML se utiliza para insertar una página web dentro
+      de otra página web. Es una manera de incrustar contenido de una página en
+      otra, creando una especie de "ventana" en la página principal donde se
+      muestra el contenido de otra URL.
+    </p>
+
+    <h3>El uso de iframe es común en diversas situaciones:</h3>
+    <ul>
+      <li>
+        Incrustar contenido de otros sitios web: Los sitios web a menudo
+        utilizan iframe para mostrar contenido de otros sitios web, como
+        incrustar un video de YouTube, mostrar feeds de redes sociales, widgets
+        de seguimiento de tiempo, mapas de Google Maps, etc.
+      </li>
+
+      <li>
+        Visualización de contenido externo: Los sistemas de gestión de
+        contenidos (CMS) a veces usan iframe para permitir a los usuarios ver
+        una vista previa de cómo se verá su contenido en un contexto específico
+        antes de publicarlo.
+      </li>
+    </ul>
+    <h5>Ejemplo:</h5>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/UfQTAIrwwg0?si=er2OsKyERPmGDojh"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <hr />
+    <!--5.- Realice una página que muestre algunos miembros de la W3C, con su logo, breve
+descripción y enlace a algún sitio web.-->
+<h1>W3C</h1>
+  </body>
+</html>
