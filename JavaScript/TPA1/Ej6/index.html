@@ -1,4 +1,5 @@
-<!--Ejercicio 6: Escribe un programa en JavaScript que dado un arreglo con los siguientes valores: 32,45,78,99,12,21. Recorrerlo y mostrar por consola solo los valores múltiplos de 3. -->
+<!--Ejercicio 6: Escribe un programa en JavaScript que dado un arreglo con los siguientes valores: 32,45,78,99,12,21.
+     Recorrerlo y mostrar por consola solo los valores múltiplos de 3. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,19 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>Multiplos de 3</h2>
+
+    <script type="text/javascript">
+        let valores = [32, 45, 78, 99, 12, 21];
+        let multi3 = [];
+        for (let i in valores) {
+            let valor = valores[i];
+            if (valor % 3 === 0) {
+                multi3.push(valor);
+            }
+        }
+        console.log("Se encontr0 un total de "+multi3.length+" multiplos de 3.");
+        console.log("los multiplos de 3 son: ",multi3);
+    </script>
 </body>
 </html>
