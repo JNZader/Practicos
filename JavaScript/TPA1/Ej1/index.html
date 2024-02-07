@@ -8,6 +8,30 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>Promedio de Números</h2>
+
+    <script type="text/javascript">
+        let numeros=[];
+        let suma=0;
+
+        for(let i=0;i<3;i++){
+            let num = i === 0 ? "primer" : i === 1 ? "segundo" : "tercer";
+            let numero=parseInt(prompt("Ingrese el "+num+" numero:"));
+
+            if(!isNaN(numero)&&Number.isInteger(numero)){
+                numeros.push(numero);
+                suma+=numero;
+            }else{
+                console.log("Ingrese un numero valido");
+                i--;
+            }
+        }
+
+        let promedio = suma/numeros.length;
+
+        console.log("los numeros ingresados son: ", numeros);
+        console.log("el promedio de los numeros ingresados es: ",promedio)
+
+    </script>
 </body>
 </html>
