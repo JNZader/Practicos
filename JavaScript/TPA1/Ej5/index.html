@@ -1,4 +1,5 @@
-<!--Ejercicio 5: Escribe un programa en JavaScript que solicite al usuario que ingrese un número usando prompt() hasta que el usuario ingrese el valor -1; al finalizar mostrar por consola la suma de los valores ingresados. -->
+<!--Ejercicio 5: Escribe un programa en JavaScript que solicite al usuario que ingrese un número usando prompt()
+     hasta que el usuario ingrese el valor -1; al finalizar mostrar por consola la suma de los valores ingresados. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>Suma de Números</h2>
+    <script type="text/javascript">
+      let suma = 0;
+      let num = 0;
+      while (num !== -1) {
+        num = parseInt(prompt("Ingrese un número (-1 para terminar):"));
+        if (typeof num === "number" && num !== -1 && !isNaN(num)) {
+          suma += num;
+        } else if (num == -1) {
+          break;
+        } else {
+          alert("Por favor, ingrese un número válido.");
+        }
+      }
+      console.log("La suma de los números es: " + suma);
+    </script>
 </body>
 </html>
