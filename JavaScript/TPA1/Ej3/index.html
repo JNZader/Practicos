@@ -1,4 +1,5 @@
-<!--Ejercicio 3:Escribe un programa en JavaScript que solicite al usuario que ingrese tres números usando prompt(). Luego, muestre el mayor de ellos o si son iguales. -->
+<!--Ejercicio 3:Escribe un programa en JavaScript que solicite al usuario que ingrese tres números usando prompt().
+     Luego, muestre el mayor de ellos o si son iguales. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,23 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>Mayor de tres numeros</h2>
+
+    <script type="text/javascript">
+        let mayor;
+
+        for (let i = 0; i < 3; i++) {
+            let numero = parseFloat(prompt("Ingrese el numero " + (i + 1) + ":"));
+            if (isNaN(numero)) {
+                console.log("Ingresa numeros validos");
+                i--;
+            } else if (i === 0 || numero > mayor) {
+                mayor = numero;
+            }
+        }
+
+        console.log("El mayor de los tres numeros es:", mayor);
+        
+    </script>
 </body>
 </html>
