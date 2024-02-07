@@ -1,4 +1,5 @@
-<!--Ejercicio 2: Escribe un programa en JavaScript que solicite al usuario que ingrese una palabra usando prompt(). Luego,  muestra en la consola el largo de la palabra y la palabra convertida a mayúsculas. -->
+<!--Ejercicio 2: Escribe un programa en JavaScript que solicite al usuario que ingrese una palabra usando prompt().
+    Luego,  muestra en la consola el largo de la palabra y la palabra convertida a mayúsculas. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>Información de Palabra</h2>
+
+    <script type="text/javascript">
+        let palabra = prompt("Ingrese una palabra:");
+        console.log("La palabra tiene " + palabra.length + " caracteres");
+        console.log("La palabra convertida a mayusculas es: " + palabra.toUpperCase());
+    </script>
 </body>
 </html>
