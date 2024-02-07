@@ -7,6 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Par o impar??</h1>
+    <script type="text/javascript">
+        while(true){
+        let numero=parseInt(prompt("ingrese un numero:"));
+
+        if(!isNaN(numero)){
+            if(numero%2===0){
+                console.log("el numero ingresado ("+numero+") es par");
+            }else{
+                console.log("el numero ingresado ("+numero+") es impar");
+            }
+            break;
+        }else{
+            console.log("Ingrese un numero valido");
+        }
+    }
+    </script>
 </body>
 </html>
