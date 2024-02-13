@@ -1,0 +1,15 @@
+html{
+    color: blue;
+}
+body{
+    color: aqua;
+}
+div{
+    color: red;
+}
+.clase{
+    color: yellow;
+}
+#identificador{
+    color: green;
+}
