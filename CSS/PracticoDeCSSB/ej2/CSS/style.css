@@ -1,0 +1,11 @@
+.conteiner{
+    display: flex;
+    flex-flow: wrap ;     
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.imagen{
+    max-width: 200px;
+    height: 200px;
+}
