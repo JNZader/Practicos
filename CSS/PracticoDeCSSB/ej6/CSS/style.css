@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(128, 128, 128, 0.455);
+    color: rgb(84, 84, 84);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80%;
+}
+h1{
+    color: rgba(13, 71, 170, 0.591);
+    border-bottom: 3px solid;
+}
+img{
+    width: 200;
+    height: 80px;
+}
+li{
+    list-style: none;
+    margin-bottom: 5px;
+    margin-left: -35px;
+}
+div{
+    padding: 10px;
+}
+
