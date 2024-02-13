@@ -1,0 +1,10 @@
+body{
+    background-image: url("/CSS/PracticoDeCSSB/ej2/3img/wsp.png");
+    background-repeat:no-repeat ;
+    background-position: top right;
+    background-attachment: fixed;
+    background-size: 500px 500px;
+}
+p{
+    font-size: 2em;
+}
