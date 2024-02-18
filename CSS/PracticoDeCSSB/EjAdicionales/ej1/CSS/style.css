@@ -1,0 +1,29 @@
+html{
+    background-image:linear-gradient(to right ,rgb(255, 255, 255),rgba(226, 226, 226, 0.906)) ;
+}
+li{
+    padding: 10px;
+    border: 1px slategrey dotted;
+    margin: 10px;
+}
+#item1{
+    color: aqua;
+    text-decoration: line-through;
+    direction: rtl;
+    text-align: right;
+}
+#item2{
+    color: blueviolet;
+    text-align: center;
+    border: red double;
+}
+#item3{
+    font: 2em sans-serif;
+    list-style-type: georgian;
+}
+#item4{
+    text-shadow: gainsboro 1px 10px ;
+}
+#item5{
+    opacity: 30%;
+}
